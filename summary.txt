@@ -1,9 +1,23 @@
 1. Why did you choose the tools, libraries, and language you used for the coding exercise?
 
-I chose **Python** because it is a language I'm proficient in and is widely used for backend development. 
+I chose Python because it is a language I'm proficient in and is widely used for backend development. The Flask framework is lightweight and suitable for building simple REST APIs quickly, allowing for clear and concise code, which is important for readability and maintainability.
+
+For data storage, I used in-memory data structures (lists and dictionaries) because they eliminate external dependencies, making it easier for reviewers to run and test the application without needing to set up a database. While in a production environment, I would opt for a scalable database like MongoDB or PostgreSQL, using in-memory storage is appropriate for the scope of this coding challenge and ensures that the focus remains on the functionality and code quality.
 
 2. What are the advantages and disadvantages of your solution?
 
+Advantages:
+
+Simplicity: The solution is straightforward and easy to understand.
+Ease of Testing: Reviewers can run the application immediately without additional setup.
+Focus on Code Quality: Allows the reviewers to focus on the logic and implementation.
+No External Dependencies: Eliminates issues related to database installation and configuration.
+
+Disadvantages:
+
+Data Volatility: Data is lost when the application stops since it's stored in memory.
+Scalability Limitations: In-memory storage isn't suitable for applications that need to persist data or handle large datasets.
+Not Reflective of Production Environments: Doesn't demonstrate how the application would interact with a real database.
 
 
 3. What has been a favorite school/personal project thus far? What about it challenged you? 
