@@ -6,10 +6,12 @@ I chose **Python** because it is a language I'm proficient in and is widely used
 
 
 
-3. What has been a favorite school/personal project thus far? What about it challenged you?
+3. What has been a favorite school/personal project thus far? What about it challenged you? 
 
-My favorite personal project so far has been developing Prelude Planner this past summer. As a dual degree student in CS and Music, I wanted to address inefficiencies in scheduling within my school's trombone studio, where professors had to prioritize lessons, align schedules, and track lesson counts, which often led to miscommunication or even students misrepresenting their lesson attendance.
+One of my favorite projects has been my work with Overture Games, where I engineered a Computer Vision RESTful API for Optical Music Recognition (OMR). This project blended my passion for both music and technology in a way that felt deeply meaningful.
 
-The process of building this app was especially challenging because I had to take on more of a technical project manager role than a pure software engineering one. I had to teach some of the developers the tech stack, make sure everyone met deadlines, and set realistic goals and milestones while assigning them to team members. Managing the team and keeping everything organized was a steep learning curve, as I had to ensure that all the moving parts came together smoothly.
+The core challenge was to develop an API that could accurately convert scanned sheet music into machine-readable formats. Using Audiveris, I built a system to handle Optical Music Recognition, integrating it with Python scripting in Flask and a Node.js backend. The goal was ambitious—achieve high accuracy and efficiency in translating complex musical notations into a format that educators and students could easily use. I managed to achieve 92% accuracy, but the journey wasn’t without obstacles.
 
-Balancing these tasks, while guiding the project from ideation through development, taught me a lot about leadership, planning, and project management.
+One of the major technical hurdles came when I had to ensure the platform could support a large user base without compromising performance. To address this, I deployed the website on an AWS EC2 Linux instance, using Nginx for load balancing and PM2 for process management. The site, sheetmusictomidi.com, now handles over 10,000 monthly users and has saved more than 40,000 hours of transcription work, which I’m incredibly proud of. However, scaling the API wasn’t as simple as setting up infrastructure; it required adhering to Agile practices to iteratively improve performance. I implemented automatic file cleanup and optimized storage management, ensuring the system could handle unlimited concurrent users seamlessly.
+
+This project challenged me not just technically, but also in terms of problem-solving and balancing performance with user needs. It was a constant learning process, from refining the backend architecture to optimizing the user experience. It’s been a fulfilling journey, and the impact it’s had on musicians and educators keeps me motivated to keep improving it.
