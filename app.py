@@ -7,9 +7,10 @@ app = Flask(__name__)
 
 lock = threading.Lock()
 
+# for scalability, we can use a database to store balances and transactions, but for the purposes of this exercise, we will use in-memory data structures
+# i don't want to overcomplicate the assignment
 balances = {}
 transactions = deque()
-
 
 @app.route('/add', methods=['POST'])
 def add_points():
@@ -112,4 +113,4 @@ def get_balance():
 
 
 if __name__ == '__main__':
-    app.run(port=8000)
+    app.run(port=8000) # port 8000
