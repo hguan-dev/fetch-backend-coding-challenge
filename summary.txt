@@ -1,8 +1,15 @@
 1. Why did you choose the tools, libraries, and language you used for the coding exercise?
 
+I chose **Python** because it is a language I'm proficient in and is widely used for backend development. 
 
 2. What are the advantages and disadvantages of your solution?
 
 
+
 3. What has been a favorite school/personal project thus far? What about it challenged you?
 
+My favorite personal project so far has been developing Prelude Planner this past summer. As a dual degree student in CS and Music, I wanted to address inefficiencies in scheduling within my school's trombone studio, where professors had to prioritize lessons, align schedules, and track lesson counts, which often led to miscommunication or even students misrepresenting their lesson attendance.
+
+The process of building this app was especially challenging because I had to take on more of a technical project manager role than a pure software engineering one. I had to teach some of the developers the tech stack, make sure everyone met deadlines, and set realistic goals and milestones while assigning them to team members. Managing the team and keeping everything organized was a steep learning curve, as I had to ensure that all the moving parts came together smoothly.
+
+Balancing these tasks, while guiding the project from ideation through development, taught me a lot about leadership, planning, and project management.
